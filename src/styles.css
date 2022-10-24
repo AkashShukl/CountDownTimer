@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  overflow-x: none;
+  width: 100%;
+}
+
+.appContainer {
+  min-width: 300px;
+  margin-top: 100px;
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 100vw;
+}
+
+input {
+  text-align: center;
+  max-width: 60px;
+  font-size: 100px;
+  text-decoration: none;
+  margin: 2px;
+  padding: 5px;
+  cursor: pointer;
+  caret-color: transparent;
+  background-color: black;
+  color: white;
+}
+
+button {
+  margin: 10px;
+  background: transparent;
+  border-radius: 100%;
+  /* border: 1px solid; */
+}
+
+.controls {
+  cursor: pointer;
+  font-size: 100px !important;
+}
+
+button:active {
+  box-shadow: 0 5px rgb(22, 16, 16);
+  transform: translateY(4px);
+}
+
+.sep {
+  font-size: 100px;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 50px;
+  border-bottom: 2px solid gray;
+}
+
+.message {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: gray;
+  background-color: greenyellow;
+  width: 100vw;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
